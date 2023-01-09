@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="css/main.min.css" rel="stylesheet">
+    <link href="css/video.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <title>Pangarap Foundation</title>
@@ -22,6 +23,69 @@
     </div> -->
 
     <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-maintheme fixed-top">
+        <div class="container-xxl">
+            <a href="#intro" class="navbar-brand">
+                <span class="fw-bold text-white">
+                    <i class="bi bi-book-half"></i>
+                    Pangarap Foundation
+                </span>
+            </a>
+            <!-- Toggle button for Mobile Nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+            aria-label="Toggle activation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse justify-content-end align-center"
+            id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Our Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Our Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Get Involved</a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <p class="lead fw-bold text-muted">|</p>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a href="#" class="nav-link">Donate</a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="#" class="btn btn-secondary">Donate</a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="#" class="btn btn-outline-primary">Log In</a>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+    </nav>
+
+    <!-- Main vid and Intro Text -->
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="https://videos.ctfassets.net/wvozpes63uc8/3LyhCLp2YLQ02HnzHp5IPw/b98b99451d4472709662737809306735/home-cycle-video.mp4?"
+        type="video/mp4">
+    </video>
+    <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+                <h1>
+                    <div class="display-2 text-white fw-bolder">Pangarap Foundation</div>
+                </h1>
+                <p class="lead my-4 text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="#pricing" class="btn btn-secondary btn-lg">Donate Now</a>
+            </div>
+        </div>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
